@@ -1,0 +1,267 @@
+body{background-color: #141414;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#container {
+		width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		margin-bottom: 0;
+}
+
+img{width: 600px;
+	height: auto;
+	display: flex;
+	align-items: center;
+	border: 1px solid white;
+}
+
+.columns {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+	
+#header {
+	color: white;
+	width: 150px;
+	margin-left: 825px;
+	margin-right: 0;
+	margin-top: 70px;
+	margin-bottom: 10px;
+	font-family: "Homemade Apple", cursive;
+	font-size: 30px;
+	font-style: normal;
+	text-transform: lowercase;
+}
+
+#header a:link {
+	color: white;
+	font-family: "Homemade Apple", cursive;
+	font-size: 30px;
+	font-style: normal;
+	text-transform: lowercase;
+	text-decoration: none;
+}
+#header a:visited {
+	color: white;
+	font-family: "Homemade Apple", cursive;
+	font-size: 30px;
+	font-style: normal;
+	text-transform: lowercase;
+	text-decoration: none;
+}
+#header a:hover {
+	color: white;
+	font-family: "Homemade Apple", cursive;
+	font-size: 30px;
+	font-style: normal;
+	text-transform: lowercase;
+	text-decoration: none;
+}
+#header a:active {
+	color: white;
+	font-family: "Homemade Apple", cursive;
+	font-size: 30px;
+	font-style: normal;
+	text-transform: lowercase;
+	text-decoration: none;
+}
+
+.menu {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	margin-left: 0px;
+	margin-right: 40px;
+	text-align: right;
+	font-family: "Homemade Apple", cursive;
+	font-style: italic;
+	font-size: 20px;
+	text-transform: lowercase;
+}
+
+.menu li{
+	margin-top: 13px;
+	margin-bottom: 13px;
+}
+
+.menu li:hover{
+	color: #e67747;
+	font-style: normal;
+}
+
+.menu a:link{
+	color: white;
+	font-family: "Homemade Apple", cursive;
+	font-style: italic;
+	font-size: 20px;
+	text-transform: lowercase;
+	text-decoration: none;
+}
+.menu a:visited{
+	color: white;
+	font-family: "Homemade Apple", cursive;
+	font-style: italic;
+	font-size: 20px;
+	text-transform: lowercase;
+	text-decoration: none;
+}
+.menu a:hover{
+	color: #e67747;
+	font-style: normal;
+	text-decoration: none;
+}
+.menu a:active{
+	color: #e67747;
+	font-style: normal;
+	text-decoration: none;
+}
+
+#social-media {
+	display: flex;
+	flex-direction: row;
+	font-family: "Homemade Apple", cursive;
+	font-style: italic;
+	font-size: 12px;
+	margin-left: 335px;
+}
+
+.smspace {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.smspace:hover {
+	font-family: "Homemade Apple", cursive;
+	font-style: normal;
+	color: #c9683e;
+}
+
+#social-media li{
+	float: left;
+}
+
+footer {
+	margin-top: 100px;
+	color: white;
+	text-transform: lowercase;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	overflow: hidden;
+	margin: 0;
+	padding: 15px;
+}
+
+#social-media a:link {
+	color: white;
+	text-transform: lowercase;
+	font-family: "Homemade Apple", cursive;
+	font-style: italic;
+	font-size: 12px;
+	text-decoration: none;
+}
+#social-media a:visited {
+	color: white;
+	text-transform: lowercase;
+	font-family: "Homemade Apple", cursive;
+	font-style: italic;
+	font-size: 12px;
+	text-decoration: none;
+}
+#social-media a:hover {
+	text-transform: lowercase;
+	font-family: "Homemade Apple", cursive;
+	font-style: normal;
+	color: #c9683e;
+	text-decoration: none;
+}
+#social-media a:active {
+	text-transform: lowercase;
+	font-family: "Homemade Apple", cursive;
+	font-style: normal;
+	color: #c9683e;
+	text-decoration: none;
+}
+
+#box {
+	width: 580px;
+	height: 400px;
+	border: 1px solid white;
+	color: white;
+	padding: 0px 10px 0px 10px;
+	font-family: 'Darker Grotesque', sans-serif;
+	text-transform: uppercase;
+	font-size: 17px;
+}
+
+.screenshot {
+	border: none;
+	display: flex;
+	flex-direction: row;
+}
+
+.screenshot img{
+	margin-top: 15px;
+	width: 175px;
+	border: none;
+}
+
+#s1 {
+	margin-right: 17px;
+}
+
+#s2 {
+	margin-left: 16px;
+}
+
+p{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.contact {
+		margin-top: 10px;
+		margin-bottom: 20px;
+}
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 600px;
+  position: relative;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.5);
+}
