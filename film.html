@@ -23,9 +23,107 @@
 						</ul>
 					</nav>
 					<div>
-						<img src="film.jpg" alt="Rome">
-					</div>
-					<div>
+						<div class="slideshow-container">
+								
+								<div class="mySlides">
+									<img src="film.jpg" style="height: 400px">
+								  </div>
+								
+								  <div class="mySlides">
+									<img src="film1.jpg" style="height: 400px">
+								  </div>
+
+								  <div class="mySlides">
+									<img src="film2.jpg" style="height: 400px">
+								  </div>
+								  
+								  <div class="mySlides">
+									<img src="film3.jpg" style="height: 400px">
+								  </div>
+								  
+								  <div class="mySlides">
+									<img src="film4.jpg" style="height: 400px">
+								  </div>
+
+								  <div class="mySlides">
+									<img src="film5.jpg" style="height: 400px">
+								  </div>
+								  
+								  <div class="mySlides">
+									<img src="film6.jpg" style="height: 400px">
+								  </div>
+								  
+								  <div class="mySlides">
+									<img src="film7.jpg" style="height: 400px">
+								  </div>
+								  
+								  <div class="mySlides">
+									<img src="film8.jpg" style="height: 400px">
+								  </div>
+								  
+								  <div class="mySlides">
+									<img src="film9.jpg" style="height: 400px">
+								  </div>
+								  
+								  <div class="mySlides">
+									<img src="film10.jpg" style="height: 400px">
+								  </div>
+								  
+								  <div class="mySlides">
+									<img src="film11.jpg" style="height: 400px">
+								  </div>
+
+								  <div class="mySlides">
+									<img src="film12.jpg" style="height: 400px">
+								  </div>
+								  
+								  <div class="mySlides">
+									<img src="film13.jpg" style="height: 400px">
+								  </div>
+								  
+								  <div class="mySlides">
+									<img src="film14.jpg" style="height: 400px">
+								  </div>
+								  
+								  <div class="mySlides">
+									<img src="film15.jpg" style="height: 400px">
+								  </div>
+								  
+								  <div class="mySlides">
+									<img src="film16.jpg" style="height: 400px">
+								  </div>
+								  
+								  <div class="mySlides">
+									<img src="film17.jpg" style="height: 400px">
+								  </div>
+								  
+								  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+								  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+								</div>
+
+								<script>
+												var slideIndex = 1;
+												showSlides(slideIndex);
+
+												function plusSlides(n) {
+												  showSlides(slideIndex += n);
+												}
+
+												function currentSlide(n) {
+												  showSlides(slideIndex = n);
+												}
+
+												function showSlides(n) {
+												  var i;
+												  var slides = document.getElementsByClassName("mySlides");
+												  if (n > slides.length) {slideIndex = 1}    
+												  if (n < 1) {slideIndex = slides.length}
+												  for (i = 0; i < slides.length; i++) {
+													  slides[i].style.display = "none";  
+												  }
+												  slides[slideIndex-1].style.display = "block";  
+												}
+								</script>
 					</div>
 				</div>
 				</main>
